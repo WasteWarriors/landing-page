@@ -165,7 +165,7 @@ a {
 /* line 34, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/base/_typography.scss */
 a:hover {
   border-bottom-color: transparent;
-  color: #f2849e !important;
+  color: #65AEBE !important;
 }
 
 /* line 40, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/base/_typography.scss */
@@ -1949,13 +1949,13 @@ header p {
 
 /* line 57, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_icon.scss */
 .icon.style2:hover {
-  color: #f2849e;
-  border-color: #f2849e;
+  color: #65AEBE;
+  border-color: #65AEBE;
 }
 
 /* line 62, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_icon.scss */
 .icon.style2:active {
-  background-color: rgba(242, 132, 158, 0.1);
+  background-color: rgba(101, 174, 190, 0.1);
 }
 
 /* List */
@@ -2292,8 +2292,8 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-  border-bottom-color: #f2849e;
-  box-shadow: inset 0 -1px 0 0 #f2849e;
+  border-bottom-color: #65AEBE;
+  box-shadow: inset 0 -1px 0 0 #65AEBE;
 }
 
 /* line 107, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_form.scss */
@@ -2409,8 +2409,8 @@ input[type="radio"]:checked + label:before {
 /* line 191, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_form.scss */
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #f2849e;
-  box-shadow: 0 0 0 1px #f2849e;
+  border-color: #65AEBE;
+  box-shadow: 0 0 0 1px #65AEBE;
 }
 
 /* line 200, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_form.scss */
@@ -2656,8 +2656,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  color: #f2849e !important;
-  box-shadow: inset 0 0 0 2px #f2849e;
+  color: #65AEBE !important;
+  box-shadow: inset 0 0 0 2px #65AEBE;
 }
 
 /* line 55, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_button.scss */
@@ -2666,7 +2666,7 @@ input[type="reset"]:active,
 input[type="button"]:active,
 button:active,
 .button:active {
-  background-color: rgba(242, 132, 158, 0.1);
+  background-color: rgba(101, 174, 190, 0.1);
 }
 
 /* line 59, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_button.scss */
@@ -2704,7 +2704,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #f2849e;
+  background-color: #65AEBE;
 }
 
 /* line 76, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_button.scss */
@@ -2713,7 +2713,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #ee5f81;
+  background-color: #4a9eb0;
 }
 
 /* line 81, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_button.scss */
@@ -2887,7 +2887,7 @@ button:disabled,
 
 /* line 130, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_tiles.scss */
 .tiles article.style1 > .image:before {
-  background-color: #f2849e;
+  background-color: #65AEBE;
 }
 
 /* line 136, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/components/_tiles.scss */
@@ -3128,7 +3128,7 @@ body.is-touch .tiles article .content {
 
 /* line 94, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/layout/_header.scss */
 #header nav ul li a[href="#menu"]:before {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23f2849e%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %2365AEBE%3B %7D%3C/style%3E%3Cline x1='0' y1='25' x2='100' y2='25' /%3E%3Cline x1='0' y1='50' x2='100' y2='50' /%3E%3Cline x1='0' y1='75' x2='100' y2='75' /%3E%3C/svg%3E");
   opacity: 0;
 }
 
@@ -3289,7 +3289,7 @@ body.is-touch .tiles article .content {
 
 /* line 102, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/layout/_menu.scss */
 #menu > .close:before {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %23f2849e%3B %7D%3C/style%3E%3Cline x1='15' y1='15' x2='85' y2='85' /%3E%3Cline x1='85' y1='15' x2='15' y2='85' /%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 8px%3B stroke: %2365AEBE%3B %7D%3C/style%3E%3Cline x1='15' y1='15' x2='85' y2='85' /%3E%3Cline x1='85' y1='15' x2='15' y2='85' /%3E%3C/svg%3E");
   opacity: 0;
 }
 
@@ -3544,6 +3544,122 @@ body.is-menu-visible #menu .close {
   /* line 11, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/layout/_wrapper.scss */
   #wrapper > * > .inner {
     padding: 0 1.25em;
+  }
+}
+
+/* line 1, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/layout/_section.scss */
+.light-section, .dark-section {
+  padding: 5em 0 5em 0;
+}
+
+@media screen and (max-width: 736px) {
+  /* line 1, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/layout/_section.scss */
+  .light-section, .dark-section {
+    padding: 3em 0 3em 0;
+  }
+}
+
+/* line 9, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/layout/_section.scss */
+.dark-section {
+  background-color: #f6f6f6;
+}
+
+/* Feature */
+/* line 59, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid {
+  position: relative;
+}
+
+/* line 63, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+/* line 69, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature {
+  display: inline-block;
+  float: left;
+  margin-bottom: 3em;
+  width: 50%;
+}
+
+/* line 76, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature .content {
+  width: 60%;
+}
+
+/* line 80, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature .image {
+  width: 30%;
+}
+
+/* line 84, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature .image img {
+  display: inline;
+  max-width: 100%;
+  max-height: 150px;
+}
+
+/* line 91, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
+  float: right;
+  margin-right: 5%;
+  text-align: right;
+}
+
+/* line 97, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature:nth-child(even) .content, .feature-grid .feature:nth-child(even) .image {
+  float: left;
+  margin-left: 5%;
+  text-align: left;
+}
+
+@media screen and (max-width: 1280px) {
+  /* line 105, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  .feature-grid .feature {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  /* line 113, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  .feature-grid .feature {
+    display: block;
+    width: 100%;
+  }
+  /* line 118, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  .feature-grid .feature .content {
+    width: 65%;
+  }
+  /* line 122, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  .feature-grid .feature .image {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  /* line 131, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  .feature-grid .feature {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* line 139, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  .feature-grid .feature .content,
+  .feature-grid .feature .image {
+    display: block;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center !important;
+    width: 100%;
+  }
+  /* line 148, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  .feature-grid .feature .image {
+    margin-bottom: 1em;
   }
 }
 
