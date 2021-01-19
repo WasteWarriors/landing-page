@@ -3565,19 +3565,19 @@ body.is-menu-visible #menu .close {
 }
 
 /* Feature */
-/* line 59, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+/* line 57, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
 .feature-grid {
   position: relative;
 }
 
-/* line 63, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+/* line 61, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
 .feature-grid:after {
   clear: both;
   content: '';
   display: block;
 }
 
-/* line 69, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+/* line 67, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
 .feature-grid .feature {
   display: inline-block;
   float: left;
@@ -3585,32 +3585,34 @@ body.is-menu-visible #menu .close {
   width: 50%;
 }
 
-/* line 76, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+/* line 74, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
 .feature-grid .feature .content {
   width: 60%;
 }
 
-/* line 80, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+/* line 78, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
 .feature-grid .feature .image {
   width: 30%;
 }
 
-/* line 84, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+/* line 82, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
 .feature-grid .feature .image img {
   display: inline;
   max-width: 100%;
   max-height: 150px;
 }
 
-/* line 91, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
-.feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
+/* line 89, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature:nth-child(odd) .content,
+.feature-grid .feature:nth-child(odd) .image {
   float: right;
   margin-right: 5%;
   text-align: right;
 }
 
-/* line 97, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
-.feature-grid .feature:nth-child(even) .content, .feature-grid .feature:nth-child(even) .image {
+/* line 96, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+.feature-grid .feature:nth-child(even) .content,
+.feature-grid .feature:nth-child(even) .image {
   float: left;
   margin-left: 5%;
   text-align: left;
@@ -3623,7 +3625,7 @@ body.is-menu-visible #menu .close {
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 736px) {
   /* line 113, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
   .feature-grid .feature {
     display: block;
@@ -3638,17 +3640,14 @@ body.is-menu-visible #menu .close {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-}
-
-@media screen and (max-width: 736px) {
-  /* line 131, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  /* line 127, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
   .feature-grid .feature {
     margin-bottom: 1em;
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* line 139, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  /* line 137, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
   .feature-grid .feature .content,
   .feature-grid .feature .image {
     display: block;
@@ -3657,7 +3656,7 @@ body.is-menu-visible #menu .close {
     text-align: center !important;
     width: 100%;
   }
-  /* line 148, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
+  /* line 146, C:/Users/Nick Skupien/Documents/GitHub/landing-page/assets/sass/main.scss */
   .feature-grid .feature .image {
     margin-bottom: 1em;
   }
